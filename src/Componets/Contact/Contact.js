@@ -1,6 +1,20 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_a32as2l', 'template_zkqykri', e.target, '6yZP6YEl4-kTZ3vo-')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+      };
+
     return (
         <div className='mt-20 mx-12'>
             <h1 className='text-center text-3xl font-bold'>Contact With Us</h1>
@@ -11,13 +25,13 @@ const Contact = () => {
              <h3 className='text-2xl mt-6'>24/7 Availabel Me!</h3>
          </div>
          <div className='lg:mx-12'>
-             <form>
+             <form onSubmit={sendEmail}>
              <p className='text-xl mb-4'>Name</p>
-             <input required type="text" placeholder="Full name" class="input input-bordered w-full max-w-xs" />
+             <input name='name' required type="text" placeholder="Full name" class="input input-bordered w-full max-w-xs" />
              <p className='text-xl my-4'>Email</p>
-             <input required type="text" placeholder="Email" class="input input-bordered w-full max-w-xs" />
+             <input name='email' required type="text" placeholder="Email" class="input input-bordered w-full max-w-xs" />
              <br></br>
-             <textarea required rows="4" cols="50" class="textarea textarea-bordered  my-6" placeholder="Write something..."></textarea>
+             <textarea name='meassage' required rows="4" cols="50" class="textarea textarea-bordered  my-6" placeholder="Write something..."></textarea>
              <br/>
              <input className='btn btn-primary' type='submit' value='Send meassage'></input>
              </form>
