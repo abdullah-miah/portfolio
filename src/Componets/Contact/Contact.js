@@ -5,16 +5,21 @@ const Contact = () => {
         <div className='mt-20 mx-12'>
             <h1 className='text-center text-3xl font-bold'>Contact With Us</h1>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-12 gap-4'>
-         <div>
+         <div className=' border-r-2 border-indigo-600'>
              <h1 className='text-2xl'>24/7 can be touch ME! Your touch within 1 hour I will feed back</h1>
              <p className='text-2xl'>Catch me Alwayes guyes. </p>
              <h3 className='text-2xl mt-6'>24/7 Availabel Me!</h3>
          </div>
-         <div>
-             <p className='text-xl mb-4'>Name</p>
-             <input type="text" placeholder="Full name" class="input input-bordered w-full max-w-xs" />
+         <div className='lg:mx-12'>
              <form>
-
+             <p className='text-xl mb-4'>Name</p>
+             <input required type="text" placeholder="Full name" class="input input-bordered w-full max-w-xs" />
+             <p className='text-xl my-4'>Email</p>
+             <input required type="text" placeholder="Email" class="input input-bordered w-full max-w-xs" />
+             <br></br>
+             <textarea required rows="4" cols="50" class="textarea textarea-bordered  my-6" placeholder="Write something..."></textarea>
+             <br/>
+             <input className='btn btn-primary' type='submit' value='Send meassage'></input>
              </form>
          </div>
 
