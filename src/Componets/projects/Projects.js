@@ -16,7 +16,7 @@ const Projects = () => {
                      <h1> Source Code:</h1>
                  <button class="btn btn-sm mr-8">Server</button>
                  <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline btn-primary ml-12">Live Preview</button>
+                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">Live Preview</button>
                  </div>
              </div>
              <div className='border-2 border-indigo-400 rounded-lg pb-12'>
@@ -27,25 +27,19 @@ const Projects = () => {
                      <h1> Source Code:</h1>
                  <button class="btn btn-sm mr-8">Server</button>
                  <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline btn-primary ml-12">Live Preview</button>
+                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">Live Preview</button>
                  </div>
              </div>
              <div className='border-2 border-indigo-400 rounded-lg pb-12'>
-                 <img className='p-4' src='https://i.ibb.co/TYQgC2Z/tools-mart.png'></img>
-                 <h1 className='text-2xl font-bold mx-12'>Tools Mart</h1>
-                 <p className='mx-12 mt-6 text-xl'>Full MERN stack web site.  Manufactured company sells her product and manage them easily here.</p>
+                 <img className='p-4' src='https://i.ibb.co/2ZFXftk/photography-ab.png'></img>
+                 <h1 className='text-2xl font-bold mx-12'>photography with AB</h1>
+                 <p className='mx-12 mt-6 text-xl'>React.JS web site.  Professional Photographer can easily recived her client event mangent and others things.</p>
                  <div className='mx-12 mt-6'>
                      <h1> Source Code:</h1>
                  <button class="btn btn-sm mr-8">Server</button>
                  <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline btn-primary ml-12">Live Preview</button>
+                 <button class="btn btn-outline mt-6 btn-primary lg:ml-12">Live Preview</button>
                  </div>
-             </div>
-             <div>
-                 <img src='https://i.ibb.co/bsBQLTP/smart-hub.png'></img>
-             </div>
-             <div>
-                 <img src='https://i.ibb.co/2ZFXftk/photography-ab.png'></img>
              </div>
             </div>
         </div>
