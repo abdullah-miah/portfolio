@@ -4,6 +4,7 @@ import { Component } from 'react';
 import Navbar from './Componets/Home/Navbar';
 import Banner from './Componets/Home/Banner';
 import About from './Componets/Home/About';
+import Projects from './Componets/projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Navbar></Navbar>
      <Banner></Banner>
      <About></About>
+     <Projects></Projects>
     </div>
   );
 }

@@ -16,25 +16,26 @@ const About = () => {
              <div className='ml-12 mt-20'>
                  <h1 className='text-2xl font-bold text-warning'>Here are a Few Highlights:</h1>
                  <ul className='list-disc text-xl ml-12'>
-                     <li>
-                     Full Stack web and mobile development
+                     <li className='text-info text-3xl'>
+                    <div className='text-black text-xl'> Full Stack web and mobile development</div>
                      </li>
-                     <li>
-                     Interactive Front End as per the design
+                     <li className='text-info text-3xl'>
+                     <div className='text-black text-xl'>Interactive Front End as per the design</div>
                      </li>
-                     <li>
-                     React and React Native
+                     <li className='text-info text-3xl'>
+                     <div className='text-black text-xl'>React and React Native</div>
                      </li>
-                     <li>
-                     Redux for State Mnanagement
+                     <li className='text-info text-3xl'>
+                      <div className='text-black text-xl'>  Redux for State Mnanagement</div>
                      </li>
-                     <li>
-                        Building REST API
+                     <li className='text-info text-3xl' >
+                        <div className='text-black text-xl'> Building REST API</div>
                      </li>
-                     <li>
-                     Managing database
+                     <li className='text-info text-3xl' >
+                     <div className='text-black text-xl'> Managing database</div>
                      </li>
                  </ul>
+                 
                  <div className='mt-20'>
                 <button class="btn btn-outline btn-success mr-20">Get Resume</button>
                 <button class="btn btn-outline btn-info">Hire me!</button>
