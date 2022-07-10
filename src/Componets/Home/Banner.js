@@ -14,16 +14,16 @@ const Banner = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 mx-12 gap-4'>
             <div className='text-center mt-28'>
                 <h1 className='text-4xl font-bold'>Hi, I'm <span className='text-warning text-5xl'>Abdullah</span></h1>
-                <div className='mt-12'>
+                <div className='mt-8'>
                 <span className='text-3xl font-bold text-indigo-600'>
                 {text}
-                <span className="cursor">|</span>
+                <span className='text-black'>|</span>
               </span>
                 </div>
                 <p className='mt-6 text-xl font-bold'>Building Web Application with Front-end and Backend</p>
                 <p className='mt-2 text-xl font-bold'>One years Experience</p>
                 <div className='mt-8'>
-                <button class="btn btn-outline btn-success mr-20">Get Resume</button>
+                <button class="btn btn-outline btn-success mr-20"><a target="_blank" href='https://drive.google.com/file/d/1orMZf_W7Ls9ja64roUeBJLrC2ODsqxR6/view?usp=sharing'> Get Resume</a></button>
                 <button class="btn btn-outline btn-info">Hire me!</button>
                 </div>
             </div>
