@@ -14,9 +14,15 @@ const Projects = () => {
                  <p className='mx-12 mt-6 text-xl'>Full MERN stack web site.  Manufactured company sells her product and manage them easily here.</p>
                  <div className='mx-12 mt-6'>
                      <h1> Source Code:</h1>
-                 <button class="btn btn-sm mr-8">Server</button>
-                 <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">Live Preview</button>
+                 <button class="btn btn-sm mr-8">
+                    <a target='_blank' href='https://github.com/abdullah-miah/tools_mart_server'>Server</a>
+                 </button>
+                 <button class="btn btn-sm">
+                    <a target='_blank' href='https://github.com/abdullah-miah/tools_mart_client'>Client</a>
+                 </button>
+                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">
+                    <a target='_blank' href='https://incandescent-sunburst-9d3dfd.netlify.app/'>Live Preview</a>
+                 </button>
                  </div>
              </div>
              <div className='border-2 border-indigo-400 rounded-lg pb-12'>
@@ -25,9 +31,15 @@ const Projects = () => {
                  <p className='mx-12 mt-6 text-xl'>Full MERN stack web site.  Manufactured company warehouse Mnanagement and sells product  them easily here.</p>
                  <div className='mx-12 mt-6'>
                      <h1> Source Code:</h1>
-                 <button class="btn btn-sm mr-8">Server</button>
-                 <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">Live Preview</button>
+                 <button class="btn btn-sm mr-8">
+                 <a target='_blank' href='https://github.com/abdullah-miah/warehouse-management-server'>Server</a>
+                 </button>
+                 <button class="btn btn-sm">
+                 <a target='_blank' href='https://github.com/abdullah-miah/-warehouse-management-client'>Client</a>
+                 </button>
+                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">
+                 <a target='_blank' href='https://shiny-stroopwafel-390d77.netlify.app/'>Live Preview</a>
+                 </button>
                  </div>
              </div>
              <div className='border-2 border-indigo-400 rounded-lg pb-12'>
