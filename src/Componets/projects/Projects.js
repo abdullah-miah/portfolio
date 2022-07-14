@@ -48,9 +48,13 @@ const Projects = () => {
                  <p className='mx-12 mt-6 text-xl'>React.JS web site.  Professional Photographer can easily recived her client event mangent and others things.</p>
                  <div className='mx-12 mt-6'>
                      <h1> Source Code:</h1>
-                 <button class="btn btn-sm mr-8">Server</button>
-                 <button class="btn btn-sm">Client</button>
-                 <button class="btn btn-outline mt-6 btn-primary lg:ml-12">Live Preview</button>
+                 
+                 <button class="btn btn-sm">
+                 <a target='_blank' href='https://github.com/abdullah-miah/-independent-service-provider'>Client</a>
+                 </button>
+                 <button class="btn btn-outline btn-primary mt-6 lg:ml-12">
+                 <a target='_blank' href='https://funny-rabanadas-6b8791.netlify.app/'>Live Preview</a>
+                 </button>
                  </div>
              </div>
             </div>
