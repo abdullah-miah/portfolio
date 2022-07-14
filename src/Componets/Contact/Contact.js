@@ -23,6 +23,7 @@ const Contact = () => {
              <h1 className='text-2xl'>24/7 can be touch ME! Your touch within 1 hour I will feed back</h1>
              <p className='text-2xl'>Catch me Alwayes guyes. </p>
              <h3 className='text-2xl mt-6'>24/7 Availabel Me!</h3>
+               
          </div>
          <div className='lg:mx-12'>
              <form onSubmit={sendEmail}>
