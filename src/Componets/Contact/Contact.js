@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <div id='contact' className='mt-20 mx-12'>
             <div
-            data-aos="zoom-in-up"  
+            data-aos="zoom-in-down"  
             data-aos-delay="50"
             ata-aos-offset="200"
         data-aos-duration="1000"
