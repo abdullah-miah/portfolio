@@ -23,10 +23,18 @@ const Banner = () => {
                 </div>
                 <p className='mt-6 text-xl font-bold'>Building Web Application with Front-end and Backend</p>
                 <p className='mt-2 text-xl font-bold'>One years Experience</p>
-                <div className='mt-8'>
+                <div
+                 data-aos="fade-up-right" 
+                 data-aos-delay="50"
+                 ata-aos-offset="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                className='mt-8'>
                 <button class="btn btn-outline btn-success mr-20"><a target="_blank" href='https://drive.google.com/file/d/1orMZf_W7Ls9ja64roUeBJLrC2ODsqxR6/view?usp=sharing'> Get Resume</a></button>
                 <button class="btn btn-outline btn-info">
-                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Hire me!</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-150} duration={500}>Hire me!</Link>
                 </button>
                 </div>
             </div>
