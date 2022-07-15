@@ -1,8 +1,11 @@
 import React from 'react';
+import { Element } from 'react-scroll';
+
 
 const About = () => {
     return (
-        <div className='mx-12'>
+        <div  className='mx-12'>
+        <Element id='about' name='about'>
         <h1 className='text-4xl font-bold text-center mt-8 underline-offset-8'>About Me</h1>
         <p className='text-center'>Why choice me!</p>
         <div className='grid grid-cols-1 lg:grid-cols-2'>
@@ -43,6 +46,7 @@ const About = () => {
              </div>
          </div>
         </div>
+        </Element>
         </div>
     );
 };

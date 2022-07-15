@@ -16,7 +16,7 @@ const Contact = () => {
       };
 
     return (
-        <div className='mt-20 mx-12'>
+        <div id='contact' className='mt-20 mx-12'>
             <h1 className='text-center text-3xl font-bold'>Contact With Us</h1>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-12 gap-4'>
          <div className=' border-r-2 border-indigo-600'>

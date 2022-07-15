@@ -11,7 +11,7 @@ const Banner = () => {
         delaySpeed: 1000
         })
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 mx-12 gap-4'>
+        <div id='home' className='grid grid-cols-1 lg:grid-cols-2 mx-12 gap-4'>
             <div className='text-center mt-28'>
                 <h1 className='text-4xl font-bold'>Hi, I'm <span className='text-warning text-5xl'>Abdullah</span></h1>
                 <div className='mt-8'>

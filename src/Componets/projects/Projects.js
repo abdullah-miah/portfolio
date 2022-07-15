@@ -1,9 +1,11 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 const Projects = () => {
     return (
         <div className='mx-12'>
-            <div className='text-center mt-20'>
+           <Element id='projects' name='projects'>
+           <div className='text-center mt-20'>
             <h1 className='text-3xl font-bold'>My work Here!</h1>
             <p>Best projects</p>
             </div>
@@ -58,6 +60,7 @@ const Projects = () => {
                  </div>
              </div>
             </div>
+           </Element>
         </div>
     );
 };
