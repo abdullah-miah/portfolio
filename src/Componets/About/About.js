@@ -1,5 +1,5 @@
 import React from 'react';
-import { Element } from 'react-scroll';
+import { Element, Link } from 'react-scroll';
 
 
 const About = () => {
@@ -41,7 +41,9 @@ const About = () => {
                  
                  <div className='mt-20'>
                 <button class="btn btn-outline btn-success mr-20">Get Resume</button>
-                <button class="btn btn-outline btn-info">Hire me!</button>
+                <button class="btn btn-outline btn-info">
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Hire me!</Link>
+                </button>
                 </div>
              </div>
          </div>

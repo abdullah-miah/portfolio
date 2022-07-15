@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import { useTypewriter } from 'react-simple-typewriter';
 import 'react-simple-typewriter/dist/index';
 
@@ -24,7 +25,9 @@ const Banner = () => {
                 <p className='mt-2 text-xl font-bold'>One years Experience</p>
                 <div className='mt-8'>
                 <button class="btn btn-outline btn-success mr-20"><a target="_blank" href='https://drive.google.com/file/d/1orMZf_W7Ls9ja64roUeBJLrC2ODsqxR6/view?usp=sharing'> Get Resume</a></button>
-                <button class="btn btn-outline btn-info">Hire me!</button>
+                <button class="btn btn-outline btn-info">
+                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Hire me!</Link>
+                </button>
                 </div>
             </div>
 
